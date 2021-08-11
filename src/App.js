@@ -39,7 +39,12 @@ export default function App() {
     <div className="App">
       <h1>Neighbours of India</h1>
 
-      <input onChange={emojiHandler} />
+      <input
+        onChange={emojiHandler}
+        placeholder={
+          "Paste the Flag emoji or Click one of the following emoji below"
+        }
+      />
 
       <h2>
         {" "}
